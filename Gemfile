@@ -37,8 +37,8 @@ gem 'rails_12factor', group: :production
 
 # Authentication
 gem 'devise', '~> 3.1.1'
-gem 'omniauth', '~> 1.1.4'
-gem 'omniauth-github', '~> 1.1.1'
+gem 'omniauth', '~> 2.0.0'
+gem 'omniauth-github', '~> 2.0.0'
 
 # Session store
 gem 'activerecord-session_store', '0.0.1'
@@ -47,7 +47,7 @@ gem 'activerecord-session_store', '0.0.1'
 gem 'will_paginate', '~> 3.0.5'
 
 # Markup
-gem 'redcarpet', '~> 3.0.0'
+gem 'redcarpet', '~> 3.5.1'
 
 # Search
 gem 'textacular', '~> 3.0'
