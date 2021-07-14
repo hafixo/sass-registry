@@ -56,11 +56,11 @@ gem 'textacular', '~> 3.0'
 gem 'rollbar'
 
 # For working with GitHub
-gem "octokit", "~> 2.0"
+gem "octokit", "~> 4.6", ">= 4.6.0"
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
-  gem 'sdoc', require: false
+  gem 'sdoc', '>= 1.0.0', require: false
 end
 
 # Use ActiveModel has_secure_password
