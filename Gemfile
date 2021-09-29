@@ -75,4 +75,4 @@ end
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-gem 'capybara', group: :test
+gem 'capybara', '>= 2.1.0', group: :test
